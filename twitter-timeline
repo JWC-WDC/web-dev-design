@@ -2,3 +2,6 @@
 <a class="twitter-timeline" href="https://twitter.com/TwitterDev" data-tweet-limit="3">
 Our Latest On Social Media
 </a>
+
+<!-- Make sure to include Twitter's JavaScript code at the bottom of your page, inside (before) the </body> element -->
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
