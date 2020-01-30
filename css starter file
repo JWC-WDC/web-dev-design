@@ -1,3 +1,19 @@
+/* A few sample styles to copy, paste and edit as needed:
+
+padding: 16px;
+background-color: red;
+color: #369;
+font-size: 16px;
+line-height: 19px;
+weight: 700;
+margin-left: 12px;
+margin-top: 22px;
+text-transform: uppercase;
+text-align: center;
+border: 1px solid #ccc;
+
+*/
+
 /*
   ___  ___  _____   __
  | _ )/ _ \|   \ \ / /
@@ -7,7 +23,10 @@
 */
 
 
-
+body
+{
+  
+}
 
 
 
@@ -20,9 +39,15 @@
          
 */
 
+h1
+{
 
+}
 
+h1.custom-name
+{
 
+}
 
 
 /*
@@ -61,10 +86,16 @@
 */
 
 
+p
+{
+
+}
 
 
+p.custom-text-name
+{
 
-
+}
 
 
 /*
@@ -77,7 +108,15 @@
 */
 
 
+div
+{
 
+}
+
+div.custom-container-name
+{
+
+}
 
 
 
@@ -92,7 +131,10 @@
 */
 
 
+img
+{
 
+}
 
 
 
@@ -105,9 +147,15 @@
                       
 */
 
+a
+{
 
+}
 
+a:hover
+{
 
+}
 
 
 /*
@@ -118,4 +166,12 @@
 
 */
 
+ul
+{
 
+}
+
+ul li
+{
+
+}
