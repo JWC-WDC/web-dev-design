@@ -1,0 +1,4 @@
+<!-- To load Google Fonts into your webpage, place the following in the HEAD of your web page, above the line inserting css/custom.css -->
+<!-- Use the values you get from the Google Fonts site instead of these defaults. Details on the class website. -->
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,900|Roboto+Slab:200,400,800&display=swap" rel="stylesheet">
