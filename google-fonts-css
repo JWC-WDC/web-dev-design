@@ -4,11 +4,11 @@ Sample usage, edit its values using the code on the Google Fonts site. See the c
 
 body
  {  
-  font-family: 'Open Sans', Arial, sans-serif
+  font-family: 'Open Sans', Arial, sans-serif;
  }
  
 
 h1
  {  
-  font-family: 'Roboto+Slab', serif;
+  font-family: 'Roboto+Slab', "Times New Roman", serif;
  } 
