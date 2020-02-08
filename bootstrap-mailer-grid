@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+
+<!-- NOTE! This is a work-in-progress -->
+
+<html lang="en">
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="Your description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sic enim censent, oportunitatis esse beate vivere. Quid autem habent admirationis, cum prope accesseris.">
+
+<meta name="author" content="YOUR NAME HERE!">
+
+<link rel="icon" href="https:johncarmody.com/school/mc/images/mailer/45.png">
+
+<title>Mailer Template</title>
+
+<!-- load Bootstrap's CSS, as well as your own -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,900|Roboto+Slab:200,400,800&display=swap" rel="stylesheet">
+
+<link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body class="">
+
+  <div id="" class="container">   
+
+    <div class="row hero-section">
+      <div class="col-lg-12">
+       <img src="https://johncarmody.com/school/mc/images/mailer/print-to-web-01.jpg" class="hero-image" >
+     </div><!-- /12 -->
+   </div><!-- /row -->
+
+
+
+
+
+
+   <div class="row template">
+
+    <div class="col-5">
+     <img src="http://placehold.it/80x80" class="section-thumb">
+   </div><!-- /5 -->
+
+   <div class="col-7">
+
+    <div class="row">
+
+      <div class="col-lg-4">
+        <img src="http://placehold.it/80x80" class="section-thumb">
+      </div><!-- /4 -->
+
+      <div class="col-lg-4">
+        <img src="http://placehold.it/80x80" class="section-thumb">
+      </div><!-- /4 -->
+
+      <div class="col-lg-4">
+        <img src="http://placehold.it/80x80" class="section-thumb">
+      </div><!-- /4 -->
+
+      <div class="col-lg-4">
+        <img src="http://placehold.it/80x80" class="section-thumb">
+      </div><!-- /4 -->
+
+      <div class="col-lg-4">
+        <img src="http://placehold.it/80x80" class="section-thumb">
+      </div><!-- /4 -->
+
+      <div class="col-lg-4">
+        <img src="http://placehold.it/80x80" class="section-thumb">
+      </div><!-- /4 -->
+
+    </div><!-- /row -->
+
+  </div><!-- /7 -->
+
+</div><!-- /row -->
+
+<div class="row ">
+  <div class="col-lg-12">
+   <h1 class="main-headline">h1</h1>
+ </div><!-- /12 -->
+</div><!-- /row -->
+
+<div class="row ">
+
+  <div class="col-lg-8">
+
+    <div class="row ">
+
+      <div class="col-lg-6">
+        <h2 class="secondary-headline">h2</h2>
+        <ul class="secondary-list">
+          <li>a</li>
+          <li>b</li>
+          <li>c</li>
+          <li>d</li>
+          <li>e</li>
+          <li>f</li>
+        </ul>
+      </div><!-- /6 -->
+
+      <div class="col-lg-6">
+       <h2 class="secondary-headline">h2</h2>
+       <ul class="secondary-list">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+      </ul>
+
+      <ul class="secondary-list">
+        <h2 class="secondary-headline">h2</h2>
+        <li>d</li>
+        <li>e</li>
+        <li>f</li>
+      </ul>
+    </div><!-- /6 -->
+
+    <div class="col-lg-12">
+     <h3 class="template">h3</h3>
+   </div><!-- /12 -->
+
+ </div><!-- /row -->
+
+</div><!-- /8 -->
+
+
+<div class="col-lg-4">
+  <img src="http://placehold.it/80x80" class="main-image">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+</div><!-- /4 -->
+
+</div><!-- /row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row mailer">
+
+  <div class="col-5">
+   <img src="https:johncarmody.com/school/mc/images/mailer/651-600x600.jpg" class="section-thumb">
+ </div><!-- /5 -->
+
+ <div class="col-7">
+
+  <div class="row">
+
+    <div class="col-lg-4 no-pad">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/tulip.jpg"  class="section-thumb" alt="brief photo descr goes here">
+      <p>some text</p>
+    </div><!-- /4 -->
+
+    <div class="col-lg-4 no-pad">
+      <img src="https:johncarmody.com/school/mc/images/mailer/527-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <p><a href="contact.html">contact</a></p>
+    </div><!-- /4 -->
+
+    <div class="col-lg-4 no-pad">
+      <img src="https:johncarmody.com/school/mc/images/mailer/223-600x600.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <p>some text</p>
+    </div><!-- /4 -->
+
+    <div class="col-lg-4 no-pad">
+      <img src="https:johncarmody.com/school/mc/images/mailer/537-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <p>some text</p>
+    </div><!-- /4 -->
+
+    <div class="col-lg-4 no-pad">
+      <img src="https:johncarmody.com/school/mc/images/mailer/661-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <p>some text</p>
+    </div><!-- /4 -->
+
+    <div class="col-lg-4 no-pad">
+      <img src="https:johncarmody.com/school/mc/images/mailer/827-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <p>some text</p>
+    </div><!-- /4 -->
+
+  </div><!-- /row -->
+
+</div><!-- /7 -->
+
+</div><!-- /row -->
+
+
+
+<div class="row main-tagline">
+  <div class="col-lg-12">
+    <h1 class="mailer-headline">All The Benefits Of Membership</h1>
+  </div><!-- /12 -->
+</div><!-- /row -->
+
+
+<div class="row ">
+
+  <div class="col-lg-8">
+
+    <div class="row ">
+
+      <div class="col-lg-6">
+        <h2 class="mailer-secondary-headline">Fitness & Training</h2>
+        <ul class="primary-list">
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Consectetur adipisicing elit</li>
+          <li>Excepteur sint occaecat cupidat</li>
+          <li>Resse cillum dolore eu fugiat </li>
+          <li>Duis aute irure dolor in reprehenderit</li>
+          <li>Dunt in culpa qui officia deserunt mollit</li>
+        </ul>
+      </div><!-- /6 -->
+
+      <div class="col-lg-6">
+
+       <h2 class="mailer-secondary-headline">Boutique Studios</h2>
+
+       <ul class="secondary-list">
+        <li>Atempor incididunt ut labore</li>
+        <li>Fin voluptate velit proident</li>
+        <li>Os anim id est laborum</li>
+      </ul>
+
+      <ul class="secondary-list">
+
+        <h2 class="mailer-secondary-headline">Amazing Amenities</h2>
+        <li>Polore magna aliqua</li>
+        <li>Olaboris nisi consequat</li>
+        <li>Dut aliquip ex ea commodo</li>
+      </ul>
+    </div><!-- /6 -->
+
+
+    <div class="col-lg-12">
+     <h3 class="mailer">Ask about our multiclub membership option</h3>
+   </div><!-- /12 -->
+
+ </div><!-- /row -->
+
+</div><!-- /8 -->
+
+
+<div class="col-lg-4">
+  <img src="https:johncarmody.com/school/mc/images/mailer/325-640x480.jpg" class="main-image" alt="brief photo descr goes here">
+  <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit</strong>, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p>Sonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, dolore magna aliqua. Ut enim ad minim veniam.</p>
+</div><!-- /4 -->
+
+</div><!-- /row -->
+
+</div> <!-- /container -->
+
+
+<!-- load our external JavaScript assets -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
