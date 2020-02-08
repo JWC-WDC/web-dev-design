@@ -1,0 +1,319 @@
+/* A few sample styles to copy, paste and edit as needed:
+
+padding: 16px;
+background-color: red;
+color: #369;
+font-size: 16px;
+line-height: 19px;
+weight: 700;
+margin-left: 12px;
+margin-top: 22px;
+text-transform: uppercase;
+text-align: center;
+border: 1px solid #ccc;
+
+*/
+
+/*
+___  ___  _____   __
+| _ )/ _ \|   \ \ / /
+| _ \ (_) | |) \ V / 
+|___/\___/|___/ |_|  
+
+*/
+
+
+body
+{  
+  font-family: 'Open Sans', sans-serif!important;
+  background-color: #000;
+}
+
+
+
+
+/*
+_  _ _ 
+| || / |
+| __ | |
+|_||_|_|
+       
+*/
+
+h1
+{
+
+  font-family: 'Roboto Slab', serif;
+
+}
+
+h1.main-headline
+{
+  background-color: #900;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 42px;
+  padding: 12px;
+  text-align: center;
+}
+
+h1.mailer-headline
+{
+  background-color: #1b74c2;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 42px;
+  padding: 12px;
+  text-align: center;
+}
+
+/*
+_  _ ___ 
+| || |_  )
+| __ |/ / 
+|_||_/___|
+         
+*/
+
+h2
+{
+  text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+}
+
+h2.secondary-headline
+{
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  color: #900;
+}
+
+h2.mailer-secondary-headline
+{
+  text-transform: uppercase;
+  text-align: center;
+  font-style: italic;
+  color: #1b74c2;
+}
+
+
+
+/*
+_  _ ____
+| || |__ /
+| __ ||_ \
+|_||_|___/
+         
+*/
+
+h3
+{
+
+}
+
+h3.template
+{
+  background-color: #900;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding: 12px;
+}
+
+
+h3.mailer
+{
+  background-color: #1b74c2;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding: 12px;
+}
+
+
+
+/*
+___ 
+| _ \
+|  _/
+|_|  
+    
+*/
+
+
+p
+{
+
+}
+
+
+
+/*
+___ _____   __  
+|   \_ _\ \ / /__
+| |) | | \ V (_-<
+|___/___| \_//__/
+                
+
+*/
+
+
+div
+{
+  border: 0px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+div.container
+{
+  border: 0px solid #ccc;
+  padding: 0px;
+}
+
+div.columns {
+  -webkit-column-count: 2;
+  -webkit-column-gap: 12px;
+  -moz-column-count: 2;
+  -moz-column-gap: 12px;
+  column-count: 2;
+  column-gap: 12px;
+}
+
+div.mailer
+{
+    padding-top: 270px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+div.main-tagline
+{
+/*  padding: 2px;*/
+}
+
+div.template
+{
+    padding-top: 270px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
+div.no-pad
+{
+  padding: 0;
+  padding-right: 12px;
+}
+
+
+
+
+/*
+___                        
+|_ _|_ __  __ _ __ _ ___ ___
+| || '  \/ _` / _` / -_|_-<
+|___|_|_|_\__,_\__, \___/__/
+              |___/        
+*/
+
+
+img
+{
+
+}
+
+
+img.hero-image
+{
+  width: 100%;
+  height: inherit;
+}
+
+img.section-thumb
+{
+ width: 100%;
+ height: inherit; 
+}
+
+img.main-image
+{
+ width: 100%;
+ height: inherit; 
+ margin-bottom: 22px;
+}
+
+/*
+_    _      _       
+| |  (_)_ _ | |__ ___
+| |__| | ' \| / /(_-<
+|____|_|_||_|_\_\/__/
+                    
+*/
+
+a
+{
+color: #1b74c2;
+}
+
+a:hover
+{
+color: #000;
+}
+
+
+/*
+ _    _    _      
+| |  (_)__| |_ ___
+| |__| (_-<  _(_-<
+|____|_/__/\__/__/
+
+*/
+
+ul
+{
+  list-style: none; /*turn-off the bullets for list items*/
+  padding-left: 0;
+}
+
+ul li
+{
+  margin-left: 16px;
+  border-bottom: 1px dashed gray;
+}
+
+ul li:last-of-type
+{
+  border-bottom: 0px dashed gray;
+}
+
+ul.primary-list, ul.secondary-list
+{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+ul.primary-list li, ul.secondary-list li
+{ 
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+
+
+
+
+
+strong 
+{
+  color: #1b74c2;
+}
