@@ -50,17 +50,19 @@
 
               <div class="carousel-item active">
                 <img src="http://placehold.it/120x40" class="d-block w-100" alt="image descr here">
-              </div>
+              </div><!-- carousel-item -->
 
               <div class="carousel-item">
                <img src="http://placehold.it/120x40" class="d-block w-100" alt="image descr here">
-             </div>
+             </div><!-- carousel-item -->
 
              <div class="carousel-item">
               <img src="http://placehold.it/120x40" class="d-block w-100" alt="image descr here">
-            </div>
+            </div><!-- carousel-item -->
 
-          </div>
+          </div><!-- carousel-inner -->
+
+
 
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -71,8 +73,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-
-        </div>
+        </div><!-- carousel -->
 
       </div><!-- /12 -->
 
@@ -116,7 +117,7 @@
 
             <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry  ad squsid. Von officia aute, non cupidatat  dolor brunch. Fuinoa nesciunt laborum eiusmod.</p>
             <p>Solf mo tempor, sunt aliqua sg fjkfhjg nulla assumenda shoreditch et.</p>
-          </div>
+          </div><!-- tab-pane -->
 
           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
 
@@ -125,8 +126,8 @@
             <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegwan excepteur butcher vice lomo. Lsegginsgs occaecat craft beew, raw denim aesthetic synth nesciunt  accusamus labore susfgta inable.</p>
 
             <p>Ufe accusamus tead asquid. Asdf wodlf moodn officia aute, non cupidatat  dolor.</p>
-
-          </div>
+          </div><!-- tab-pane -->
+          
           <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
             <h2>What I Love Doing</h2>
@@ -137,9 +138,9 @@
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur.</p>
             <p> Excepteur sint occaecat cupidatat non roident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
+          </div><!-- tab-pane -->
 
-        </div>
+        </div><!-- tab-content -->
 
       </div><!-- /8 -->
 
