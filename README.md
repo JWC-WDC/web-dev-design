@@ -3,11 +3,11 @@ Code snippets for class web projects.
 
 Remember: your top-level project folder should have sub-folders for images, CSS and more. A proper beginning structure would look like:
 
-/project-01/<br/>
-/project-01/index.html<br/><br/>
-/project-01/css/<br/>
-/project-01/css/custom.css<br/><br/>
-/project-01/images/<br/>
-/project-01/images/logo.png
+/project1/<br/>
+/project1/index.html<br/><br/>
+/project1/css/<br/>
+/project1/css/custom.css<br/><br/>
+/project1/images/<br/>
+/project1/images/logo.png
 
 etc.
