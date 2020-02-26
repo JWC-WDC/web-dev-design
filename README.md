@@ -16,7 +16,9 @@ Create that directory strcture, if needed.
 
 Then create an empty index.html in it as well as an empty /css/custom.css file.
 
-Then paste the sections of code from this site into those pages as needed. For exam[le:
+Then paste the sections of code from this site into those pages as needed. 
+
+For example:
 
 HTML:
 bootstrap-starter-file
