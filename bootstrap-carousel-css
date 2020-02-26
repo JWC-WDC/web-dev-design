@@ -10,8 +10,7 @@ ___  ___  _____   __
 body
 {  
   font-family: 'Signika Negative', sans-serif;
-  background-color: #aaa;
-  font-size: 16px;
+
 }
 
 
@@ -88,7 +87,7 @@ ___ _____   __
 
 div
 {
-  padding: 4px;
+  padding: 2px;
 }
 
 
@@ -186,10 +185,10 @@ div.carousel
 }
 
 div.carousel-caption
-{
-  border: 1px solid #666;
+{  border-radius: 50px 20px;
+  border: 0px solid rgba(0,0,0,.5);
   padding: 1rem;
-  background-color: rgba(0,0,0,.35);
+  background-color: rgba(255,255,255,.15);
 }
 
 
