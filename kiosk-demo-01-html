@@ -6,7 +6,7 @@
 
   <meta charset="utf-8">
 
-  <meta http-equiv="refresh" content="14">
+  <meta http-equiv="refresh" content="15">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,7 +16,7 @@
 
   <link rel="icon" href="https://johncarmody.com/school/mc/images/mailer/45.png">
 
-  <title>Bus Stop Digital Kiosk Example</title>
+  <title>Bus Stop Digital Screen Example</title>
 
   <!-- load Bootstrap's CSS, then Google fonts, then your own -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -37,77 +37,80 @@
 
       <div class="col-md-12">
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5500">
 
           <div class="overlay-text">
-            <h1 class="animated bounceInDown delay-0s">10 Minutes away from the airport...</h1>
+            <h1 class="animated bounceInDown delay-0s">Attention = Grabbed</h1>
           </div><!-- overlay-text -->
 
           <div class="call-to-action">
             <button class="animated bounceInDown delay-0s"><a href="">CTA</a></button>
           </div><!-- call-to-action -->
 
+          <div class="qr">
+            <button class="animated bounceInDown delay-0s">
+              <a href="">
+                <img src="images/qr_code.png" class="qr-icon">
+              </a>
+            </button>
+          </div><!-- qr -->
+
+          <div class="scale">
+          </div><!-- scale -->
+
           <div class="carousel-inner">
 
             <div class="carousel-item active">
              <img src="https://johncarmody.com/wp-content/gallery/blackwhite/crows-01.jpg" class="d-block w-100" alt="image descr here">
              <div class="carousel-caption d-none d-md-block">
-              <h2 class="">The 1st Headline</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <a href="#">sed do eiusmod</a>
-              tempor incididunt ut labore et dolore magna aliqua.</p>
+              <h2 class="">Did You Know? <span>100%</span> of people hit by cars say <span class="ouch">Ouch</span></h2>
+              <p>Fascinating? Maybe. Find Out More <a href="#">www.abc.com</a></p>
             </div><!-- carousel-caption -->
           </div><!-- carousel-item -->
 
           <div class="carousel-item">
-           <img src="https://johncarmody.com/wp-content/gallery/blackwhite/crows-01.jpg" class="d-block w-100" alt="image descr here">
+           <img src="https://johncarmody.com/school/mc/tech299/code/touchscreen/images/1.jpg" class="d-block w-100" alt="image descr here">
            <div class="carousel-caption d-none d-md-block">
-            <h2 class="">Here's A 2nd Headline</h2>
-            <p>The next slide has no headline or paragraphs.</p>
-          </div><!-- carousel-caption -->
-        </div><!-- carousel-item -->
+             <h2 class="">Did You Know? <span>100%</span> of interesting facts are <span class="ouch">Interesting</span></h2>
+             <p>The next slide has only a headline</p>
+           </div><!-- carousel-caption -->
+         </div><!-- carousel-item -->
 
-        <div class="carousel-item">
-          <img src="https://johncarmody.com/wp-content/gallery/blackwhite/crows-01.jpg" class="d-block w-100" alt="image descr here">
+         <div class="carousel-item">
+          <img src="https://johncarmody.com/school/mc/tech299/code/touchscreen/images/2.jpg" class="d-block w-100" alt="image descr here">
           <div class="carousel-caption d-none d-md-block">
-            <h2 class="">Here's A 3rd Headline</h2>
-            <p>The next slide has no headline or paragraphs.</p>
-          </div><!-- carousel-caption -->
-        </div><!-- carousel-item -->
+           <h2 class="">Did You Know? I did <span class="ouch">Not</span>Know</h2>
+         </div><!-- carousel-caption -->
+       </div><!-- carousel-item -->
 
-      </div><!-- carousel-inner -->
+     </div><!-- carousel-inner -->
 
+   </div><!-- carousel -->
 
-    </div><!-- carousel -->
+   <div class="branding">
+    <h2>Perhaps branding & social icons in this section? Or something else? And below?</h2>
+  </div><!-- branding -->
 
-    <div class="branding">
-      <h2>Perhaps branding & social icons in this section? Or something else? And below?</h2>
-    </div><!-- branding -->
-
-  </div><!-- /12 -->
+</div><!-- /12 -->
 
 
-  <div class="col-md-4">
-    4
-  </div><!-- .col-md-4 -->
+<div class="col-md-4">
+  4
+</div><!-- .col-md-4 -->
 
-  <div class="col-md-4">
-    4
-  </div><!-- .col-md-4 -->
+<div class="col-md-4">
+  4
+</div><!-- .col-md-4 -->
 
-  <div class="col-md-4">
-    4
-  </div><!-- .col-md-4 -->
+<div class="col-md-4">
+  4
+</div><!-- .col-md-4 -->
 
 </div><!-- /row -->
 
 </div> <!-- /container -->
 
-<style>
-body.kiosk
-{
-  display: none;
-}
-</style>
+
 
 <!-- load our external JavaScript assets -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"  crossorigin="anonymous"></script>
@@ -120,7 +123,7 @@ body.kiosk
   $(document).ready(function(){
     $('body').css('display', 'none').fadeIn(900);
     $('.carousel-caption').css('display', 'none').fadeIn(700);
-    $('body').delay(14000).fadeOut(900);
+    $('body').delay(16000).fadeOut();
   });
 </script>
 
