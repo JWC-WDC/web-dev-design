@@ -1,0 +1,283 @@
+/*
+___  ___  _____   __
+| _ )/ _ \|   \ \ / /
+| _ \ (_) | |) \ V / 
+|___/\___/|___/ |_|  
+
+*/
+
+
+body
+{  
+  font-family: 'Signika Negative', sans-serif;
+
+}
+
+
+
+
+/*
+_  _ _ 
+| || / |
+| __ | |
+|_||_|_|
+       
+*/
+
+h1
+{
+  font-family: 'Averia Serif Libre', serif;
+}
+
+div.overlay-text h1
+{
+  padding: 8px;
+  display: inline-block;
+  color: rgba(255,255,255,.8);
+  font-size: 56px;
+  line-height: 56px;
+  text-align: center;
+  border-top: 3px solid rgba(23,128,155,.9);
+  color: #FFFFFF;
+  background: rgba(255,128,155,.6);
+  text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+
+/*
+_  _ ___ 
+| || |_  )
+| __ |/ / 
+|_||_/___|
+         
+*/
+
+h2
+{
+  font-size: 14px;
+}
+
+div.carousel-caption h2
+{
+  text-transform: uppercase;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: 700;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+
+
+/*
+_  _ ____
+| || |__ /
+| __ ||_ \
+|_||_|___/
+         
+*/
+
+
+
+/*
+___ 
+| _ \
+|  _/
+|_|  
+    
+*/
+
+
+p
+{
+  color: #fff;
+  background-color: rgba(0,0,0,.6);
+  padding: 4px;
+  border-radius: 50px 20px;
+}
+
+
+
+/*
+___ _____   __  
+|   \_ _\ \ / /__
+| |) | | \ V (_-<
+|___/___| \_//__/
+                
+*/
+
+
+
+div
+{
+ 
+}
+
+
+div.overlay-text
+{
+  position: absolute;
+  top: 14px;
+  left: 0px;
+  z-index: 999;
+  text-transform: uppercase;
+}
+
+div.branding
+{
+  background: linear-gradient(to top, black, 20%, white);
+  padding: 16px;
+}
+
+div.kiosk
+{
+  max-width: 768px;
+  border: 1px solid #ccc;
+}
+
+
+/*
+  _                                 
+ (_)_ __ ___   __ _  __ _  ___  ___ 
+ | | '_ ` _ \ / _` |/ _` |/ _ \/ __|
+ | | | | | | | (_| | (_| |  __/\__ \
+ |_|_| |_| |_|\__,_|\__, |\___||___/
+                    |___/           
+                    */
+
+
+img
+{
+
+}
+
+
+div.carousel img
+{
+  width: 100%;
+  height: inherit;
+  max-width: 768px;
+  float: left;
+  margin: 0px 0px 0px 0px; /* top / right / bottom / left */
+}
+
+
+
+/*
+_    _      _       
+| |  (_)_ _ | |__ ___
+| |__| | ' \| / /(_-<
+|____|_|_||_|_\_\/__/
+                    
+*/
+
+a
+{
+  color: rgba(0,0,0,.5);
+}
+
+a:hover
+{
+  color: #aaa;
+  text-decoration: underline;
+}
+
+
+/*
+ _    _    _      
+| |  (_)__| |_ ___
+| |__| (_-<  _(_-<
+|____|_/__/\__/__/
+
+*/
+
+ul
+{
+  list-style: none; /*turn-off the bullets for list items*/
+  padding-left: 0;
+}
+
+
+
+
+/*
+
+  _                 _       _                          
+ | |__   ___   ___ | |_ ___| |_ _ __ __ _ _ __         
+ | '_ \ / _ \ / _ \| __/ __| __| '__/ _` | '_ \        
+ | |_) | (_) | (_) | |_\__ \ |_| | | (_| | |_) |       
+ |_.__/ \___/ \___/ \__|___/\__|_|  \__,_| .__/        
+                                        _|_|           
+   _____   _____ _ __    __      ___ __(_) |_ ___  ___ 
+  / _ \ \ / / _ \ '__|___\ \ /\ / / '__| | __/ _ \/ __|
+ | (_) \ V /  __/ | |_____\ V  V /| |  | | ||  __/\__ \
+  \___/ \_/ \___|_|        \_/\_/ |_|  |_|\__\___||___/
+                                                       
+
+  */
+
+  div.carousel
+  {
+    background-color: #666;
+  }
+
+  .carousel-indicators {
+    position: absolute;
+    bottom: -10px;
+  }
+
+  div.carousel-caption
+  {  
+    border-radius: 50px 20px;
+    border: 0px solid rgba(0,0,0,.5);
+    padding: 1rem;
+    background-color: rgba(0,0,0,.35);
+    max-width: 100%; /*change to 25% to get a smaller container, if your design cals for it */
+    width:97%;
+    left: 12px;
+  }
+
+  .call-to-action button
+  {
+    border-radius: 50%;
+    border: 6px solid white;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    z-index: 999;
+    background: linear-gradient(to top, black, 20%, red);
+  }
+
+
+  .call-to-action button a
+  {
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+/***
+ *       ____                          _              
+ *      / __ \                        (_)             
+ *     | |  | |  _   _    ___   _ __   _    ___   ___ 
+ *     | |  | | | | | |  / _ \ | '__| | |  / _ \ / __|
+ *     | |__| | | |_| | |  __/ | |    | | |  __/ \__ \
+ *      \___\_\  \__,_|  \___| |_|    |_|  \___| |___/
+ *                                                    
+ *                                                    
+ */
+
+ /* Media Queries: This is just a taste, I'll cover it later in the semester*/
+
+ @media (min-width: 992px)
+ {
+  div.carousel img
+  {
+    max-width: 1600px;
+  }
+}
