@@ -165,7 +165,7 @@ div.scale
   position: absolute;
   top: 64px;
   z-index: 999;
-  background-image: url("../images/invisible-people.png");
+  background-image: url("https://johncarmody.com/school/mc/tech299/code/touchscreen/images/invisible-people.png");
   background-repeat: no-repeat;
 }
 
