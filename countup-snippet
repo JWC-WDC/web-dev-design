@@ -1,0 +1,36 @@
+<div class="countup-holder">
+
+		<h1>How Many Meals Can You Buy With $150?</h1>
+
+		<div class="countup-value">
+
+			<span>
+				<span class="counter circle">250</span> 
+			</span>
+
+
+		</div><!-- countup-value -->
+
+		<p class="animated bounceInDown delay-3s">Only *You* can Make A Difference</p>
+
+		<h2 class="animated bounceInDown delay-5s"><button>donate now</button></h2>
+
+	</div><!-- countup-holder -->
+
+
+	<!-- NOTE: jQuery is already loaded in Bootstrap, so you don't need to load it in again -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+
+	<!-- Here is a utility library called "waypoints", a way to trigger a function when you scroll to an element. -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+	<!-- Here is the countup library -->
+	<script src="https://www.jqueryscript.net/demo/Animating-Numbers-Counting-Up-with-jQuery-Counter-Up-Plugin/jquery.counterup.min.js"></script> 
+	<!-- Here is the countup JavaScript to configure your counter -->
+	<script>
+		jQuery(document).ready(function( $ ) {
+			$('.counter').counterUp({
+				time: 2900
+			});
+		});
+	</script>
