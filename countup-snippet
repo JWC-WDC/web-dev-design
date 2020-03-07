@@ -1,19 +1,27 @@
 <div class="countup-holder">
 
-		<h1>How Many Meals Can You Buy With $150?</h1>
+		<h1>How Many Meals Do You Buy With $150?</h1>
 
 		<div class="countup-value">
 
 			<span>
-				<span class="counter circle">250</span> 
+				<span class="counter circle">200</span> 
 			</span>
-
 
 		</div><!-- countup-value -->
 
-		<p class="animated bounceInDown delay-3s">Only *You* can Make A Difference</p>
+		<p class="animated bounceInDown delay-3s summary">
+			That feeds a lot of mouths.
+		</p>
 
-		<h2 class="animated bounceInDown delay-5s"><button>donate now</button></h2>
+		<h2 class="animated bounceInDown delay-4s">
+			You Can Make It Happen
+		</h2>
+
+		<h3 class="animated bounceInDown delay-4s">
+			<button><a href="#">donate now</a></button>
+		</h3>
+
 
 	</div><!-- countup-holder -->
 
@@ -30,7 +38,7 @@
 	<script>
 		jQuery(document).ready(function( $ ) {
 			$('.counter').counterUp({
-				time: 2900
+				time: 2800 // milliseconds
 			});
 		});
 	</script>
