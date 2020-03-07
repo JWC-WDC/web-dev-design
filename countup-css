@@ -1,0 +1,19 @@
+div.countup-holder
+	{
+		position: relative;
+	}
+
+	div.countup-value
+	{
+		position: relative;
+	}
+
+	span
+	{
+		font-size: 96px;
+	}
+
+	span.circle
+	{
+		/*position: absolute;*/
+	}
