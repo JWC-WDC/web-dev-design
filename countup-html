@@ -1,0 +1,59 @@
+<head>
+
+	<!-- load Bootstrap's CSS, then Google fonts, then your own CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css" rel="stylesheet">
+
+	<link href="css/animate.css" rel="stylesheet">
+</head>
+<body>
+
+
+	<div class="countup-holder">
+
+		<h1>How Many Meals Does Your $150 Buy?</h1>
+
+		<div class="countup-value">
+
+			<span>
+				<span class="counter circle">200</span> 
+			</span>
+
+		</div><!-- countup-value -->
+
+		<p class="animated bounceInDown delay-3s summary">
+			meals for grateful mouths
+		</p>
+
+		<h2 class="animated bounceInDown delay-4s">
+			You Can Make It Happen:
+		</h2>
+
+		<h3 class="animated bounceInDown delay-5s">
+			<button><a href="#">donate now</a></button>
+		</h3>
+
+
+	</div><!-- countup-holder -->
+
+
+	<!-- NOTE: jQuery is already loaded in Bootstrap, so you don't need to load it in again if you move this to a Bootstrap-based site -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+
+	<!-- This is a utility library called "waypoints", a way to trigger a function when you scroll to an element on your webpage -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+	<!-- Here is the countup library -->
+	<script src="https://www.jqueryscript.net/demo/Animating-Numbers-Counting-Up-with-jQuery-Counter-Up-Plugin/jquery.counterup.min.js"></script> 
+
+	<!-- Here is the countup JavaScript to configure your counter -->
+	<script>
+		jQuery(document).ready(function( $ ) {
+			$('.counter').counterUp({ // looks for an HTML element with a class named "counter"
+				time: 2900 // duration in milliseconds
+			});
+		});
+	</script>
+
+</body>
