@@ -1,0 +1,56 @@
+What Is Your Age Group?
+18-30
+31-50
+50-75
+75+
+I'd As Soon Not Say
+
+Have Far Have You Gone In School?
+Some High School
+High School
+Bachelor's Degree
+Master's Degree
+Ph.D. or higher
+Trade School
+I'd As Soon Not Say
+
+What Is Your Gender?
+Female
+Male
+I'd As Soon Not Say
+
+Are You Married?
+Yes
+No
+I'd As Soon Not Say
+
+What Is Your Annual Household Income?
+Less than $25,000
+$25,000 - $50,000
+$50,000 - $100,000
+$100,000 - $200,000
+More than $200,000
+I'd As Soon Not Say
+
+What is your current employment status?
+Employed Full-Time
+Employed Part-Time
+Seeking opportunities
+Retired
+I'd As Soon Not Say
+
+How many children do you have?
+None
+1
+2-4
+I'd As Soon Not Say
+
+Which languages are you capable of speaking fluently? (Check all that apply)
+English
+Spanish
+Portuguese
+French
+Mandarin
+Arabic
+Other
+I'd As Soon Not Say
