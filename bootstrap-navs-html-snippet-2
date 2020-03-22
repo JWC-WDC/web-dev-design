@@ -1,0 +1,43 @@
+ <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">A Topic</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Another Topic</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">A 3rd Topic</a>
+          </li>
+
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry  ad squsid. Von officia aute, non cupidatat  dolor brunch. Fuinoa nesciunt laborum eiusmod.</p>
+            <p>Solf mo tempor, sunt aliqua sg fjkfhjg nulla assumenda shoreditch et.</p>
+          </div><!-- tab-pane -->
+
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+            <h2>Skill Sets</h2>
+
+            <p>Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegwan excepteur butcher vice lomo. Lsegginsgs occaecat craft beew, raw denim aesthetic synth nesciunt  accusamus labore susfgta inable.</p>
+
+            <p>Ufe accusamus tead asquid. Asdf wodlf moodn officia aute, non cupidatat  dolor.</p>
+          </div><!-- tab-pane -->
+          
+          <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+
+            <h2>What I Love Doing</h2>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur.</p>
+            <p> Excepteur sint occaecat cupidatat non roident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div><!-- tab-pane -->
+
+        </div><!-- tab-content -->
