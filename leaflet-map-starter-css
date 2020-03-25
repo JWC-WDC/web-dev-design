@@ -1,0 +1,65 @@
+body
+{
+  background-color: #ccc;
+}
+
+/*here, we write our own CSS for styling suited to our taste*/
+#mapid h1
+{
+      font-size: 20px;
+    line-height: 21px;
+    overflow: hidden;
+     font-family: 'Signika Negative', sans-serif;
+}
+
+#mapid p
+{
+      font-size: 12px;
+    line-height: 12px;
+    overflow: hidden;
+    margin: 0 0 12px 0;
+    padding: 0 0 12px 0;
+}
+
+div
+{
+  background-color: transparent;
+}
+
+div#mapid { 
+
+  width: 100%;
+  min-width: 100px;
+  height: 400px;
+  margin-bottom: 40px!important;
+}
+
+#mapid img.map-thumbnail
+{
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 12px;  
+  height:64px;
+  width:64px;
+  border: 1px solid #aaa;
+}
+
+
+/*here, we use our custom CSS to OVERWRITE some of Leaflet's default styling rules*/
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup, .leaflet-popup-tip-container {
+  background-color: transparent;
+  margin-bottom: 32px;
+}
+
+.leaflet-popup-tip-container
+{
+ display: none;
+}
+
+.leaflet-popup-content {
+  background-color: #fff;
+  line-height: 1.4;
+  margin: 0;
+  width: 222px;
+}
+
