@@ -1,0 +1,36 @@
+<!-- here, we load the JavaScript mapping libraries into your page -->
+<!-- remember: this code goes BELOW the Bootstrap libraries you are loading -->
+
+<!-- load the leaflet maps library-->
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+
+<script>
+// 1st we create a map, here called "mymap" - this is the same name as the map div in the HTML
+// note: the Leaflet mapping library wants the address in the form of latitude, longitude
+var mymap = L.map('mapid').setView([39.09818,-77.15906], 13);
+
+//add the map tile layer that is the source of the map tiles (its appearance)
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+
+    //set the default zoom level
+    maxZoom: 18,
+
+    //set the map's attributions
+    //note: this info does not pertain to our class
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1
+  })
+
+//add the map tile layer to the map (which is called mymap, created above)
+.addTo(mymap);
+
+//use the same lat/long as above to add the marker to the center of the map
+L.marker([39.09818,-77.15906]).addTo(mymap)
+
+//then, if the marker is clicked, attach (or, "bind") your HTML content to open as a pop-up:
+.bindPopup('<img class="map-thumbnail" src="https://launchandsell.com/wp-content/uploads/2018/03/ls_blog_free-affordable-feminine-stock-photography_hautestock-2.jpg" /><h1>Hello world</h1><p>I am <a href="https://github.com/JWC-WDC/web-dev-design" target="_blank">a popup</a>.</p>').openPopup();
+</script>
