@@ -1,0 +1,12 @@
+div#mapdiv
+{
+  width: 100%;
+  min-width: 100px;
+ /* max-width: 444px;*/
+  height: 400px;
+  margin-bottom: 40px!important;
+}
+
+.olControlAttribution {
+    display: none!important;
+}
