@@ -1,13 +1,21 @@
+
+
+
 <!-- load the JavaScript mapping libraries into your page -->
 <!-- remember: this code goes BELOW the Bootstrap libraries you are loading -->
+
+<!-- load the openlayers library, so we can overlay objects on customized maps-->
 <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
 
+<!-- load the stamen map tile library to use custom tiles -->
 <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
 
 
 
-<!-- Often you will have your own customized JavaScript -->
+
+<!-- often you will have your own customized JavaScript -->
 <!-- here, we will add some, related to the map -->
+
 <!-- start the custom map code -->
 <script>
 
@@ -18,7 +26,7 @@ map = new OpenLayers.Map("mapdiv");
 map.addLayer(new OpenLayers.Layer.Stamen("terrain"));
 
 //set default location, change 1st line ONLY: longitude, latitude
-//change here
+//change longitude & latitude of your location here
 var lonLat = new OpenLayers.LonLat( -77.15906, 39.09818 ).transform(
             new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
             map.getProjectionObject() // to Spherical Mercator Projection
@@ -28,20 +36,23 @@ var lonLat = new OpenLayers.LonLat( -77.15906, 39.09818 ).transform(
 //change here
 var zoom=14;
 
-//create a layer to hold your marker/location icon
+//create a markers layer to hold your marker/location icon
 var markers = new OpenLayers.Layer.Markers( "Markers" );
 
 //add that layer holding the location icon to your map
 map.addLayer(markers);
 
-//the location of your location icon (use a different image, obviously)
+//the location of your location icon (use a different icon, obviously)
 //change here
 var icon = new OpenLayers.Icon('https://johncarmody.com/wp-content/themes/profiles/img/favicon.ico');
 
+//add a marker (aka, an icon) to the map markers layer &
+//place the icon at the longitude & latitude defined above (lonLat)
 markers.addMarker(new OpenLayers.Marker(lonLat,icon));
 
 //add the map to the DIV with the ID "mapdiv", defined above, and
-//center it to the default location and go to its zoom level, both defined above 
+//center it to the default location, defined above, and 
+//go to its zoom level, defined above 
 map.setCenter (lonLat, zoom);
 
 </script>
