@@ -1,0 +1,5 @@
+<!-- drop this wherever you want your map to appear -->
+<!-- style its with, height & other attributes via CSS -->
+<!-- make sure you add the JavaScript file as well -->
+
+<div id="mapdiv"></div>
