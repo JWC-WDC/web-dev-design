@@ -1,12 +1,18 @@
+/*set the basic style of a map, you always need a width & height*/
 div#mapdiv
 {
   width: 100%;
   min-width: 100px;
- /* max-width: 444px;*/
   height: 400px;
   margin-bottom: 40px!important;
 }
 
+/*hide the map credits*/
 .olControlAttribution {
     display: none!important;
+}
+
+/*this rule says, if there is an ID, *and* the ID name begins with OL_Icon *then* apply a style*/
+div[id^="OL_Icon"] {
+  background: transparent;
 }
