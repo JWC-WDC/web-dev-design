@@ -1,0 +1,3 @@
+<!-- Drop this snippet where you want the map to appear. Make sure you have properly added the related CSS & JavaScript, and configured them for your project -->
+
+<div id="mapid"></div>
