@@ -1,0 +1,57 @@
+
+<!-- load the JavaScript mapping libraries into your page -->
+<!-- remember: this code goes BELOW the Bootstrap libraries you are loading -->
+
+<!-- load the openlayers library, so we can overlay objects on customized maps-->
+<script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+
+<!-- load the stamen map tile library to use custom tiles -->
+<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.3.0"></script>
+
+
+
+
+<!-- often you will have your own customized JavaScript -->
+<!-- here, we will add some, related to the map -->
+
+<!-- start the custom map code -->
+<script>
+
+//create a map & remember: *its* name must match the *ID* name in the HTML, eg, mapdiv
+map = new OpenLayers.Map("mapdiv");
+
+//watercolor, terrain, toner
+map.addLayer(new OpenLayers.Layer.Stamen("toner"));
+
+//set default location, change 1st line ONLY: longitude, latitude
+//change longitude & latitude of your location here
+var lonLat = new OpenLayers.LonLat( -77.15906, 39.09818 ).transform(
+            new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+            map.getProjectionObject() // to Spherical Mercator Projection
+            );
+
+//set default zoom level, 1-18
+//change here
+var zoom=14;
+
+//create a markers layer to hold your marker/location icon
+var markers = new OpenLayers.Layer.Markers( "Markers" );
+
+//add that layer holding the location icon to your map
+map.addLayer(markers);
+
+//the location of your location icon (use a different icon, obviously)
+//change here
+var icon = new OpenLayers.Icon('https://www.montgomerycollege.edu/_images/global/apple-touch-icon-144x144.png');
+
+//add a marker (aka, an icon) to the map markers layer &
+//place the icon at the longitude & latitude defined above (lonLat)
+markers.addMarker(new OpenLayers.Marker(lonLat,icon));
+
+//add the map to the DIV with the ID "mapdiv", defined above, and
+//center it to the default location, defined above, and 
+//go to its zoom level, defined above 
+map.setCenter (lonLat, zoom);
+
+</script>
+<!-- end the custom map code -->
