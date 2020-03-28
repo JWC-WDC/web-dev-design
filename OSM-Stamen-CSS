@@ -1,1 +1,4 @@
-vvvv
+#mapdiv
+{
+  border: 1px solid #ccc;
+}
