@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Your description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sic enim censent, oportunitatis esse beate vivere. Quid autem habent admirationis, cum prope accesseris.">
+
+  <meta name="author" content="ADD YOUR NAME HERE">
+
+  <!--   <link rel="icon" href="ADD YOUR FAVICON HERE"> -->
+
+  <title>Demographic Persona Fact Sheet</title>
+
+  <!-- load Bootstrap's CSS, then Google fonts, then your own -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Signika+Negative:300,400,700&display=swap" rel="stylesheet">
+
+  <!-- load the Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+
+  <!--   note the use of multiple CSS files - that's common -->
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/demographic-persona.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container">   
+
+    <div class="row main-section">
+
+    <div class="col-12">
+      <h1 id="main-headline">Demographic Persona Fact Sheet</h1>
+      <h2>Project 2: The Name Of Your Team</h2>     
+    </div><!-- /12 -->
+
+    <div class="col-6">
+     <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="thumbnail" alt="image descr here">
+
+     <h2>"Sylvia"</h2>
+
+     <p>Sylvia is a 34-year-old mother of 2 daughters. She and her husband are college graduates, are financially secure and live in Bethesda, Maryland. Her closest friends are from school.</p>
+     <p>
+     She works from home answering IT support calls. Her husband works at Walter Reed. Their cat is named "Morris".</p>
+   </div><!-- 6 -->
+
+   <div class="col-6">    
+    <!-- here's the map -->
+    <div id="mapid"></div>
+  </div><!-- 6 -->
+
+
+</div><!-- /row main-section -->
+
+</div> <!-- /container -->
+
+
+<!-- load our external JavaScript assets -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<!-- here, we load the JavaScript mapping libraries into your page -->
+<!-- remember: this code goes BELOW the Bootstrap libraries you are loading -->
+
+<!-- load the leaflet maps library-->
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+
+<script>
+// 1st we create a map, here called "mymap" - this is the same name as the map div in the HTML
+// note: the Leaflet mapping library wants the address in the form of latitude, longitude
+var mymap = L.map('mapid').setView([39.09818,-77.15906], 13);
+
+//add the map tile layer that is the source of the map tiles (its appearance)
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+
+    //set the default zoom level
+    maxZoom: 18,
+
+    //set the map's attributions
+    //note: this info does not pertain to our class
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+    '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+    'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1
+  })
+
+//add the map tile layer to the map (which is called mymap, created above)
+.addTo(mymap);
+
+//use the same lat/long as above to add the marker to the center of the map
+L.marker([39.09818,-77.15906]).addTo(mymap)
+
+//then, if the marker is clicked, attach (or, "bind") your HTML content to open as a pop-up:
+.bindPopup('<img class="map-thumbnail" src="https://launchandsell.com/wp-content/uploads/2018/03/ls_blog_free-affordable-feminine-stock-photography_hautestock-2.jpg" /><h1>Make A Difference Today</h1><p>A brief message with a <a href="https://github.com/JWC-WDC/web-dev-design" target="_blank">Call To Action</a>.</p>').openPopup();
+</script>
+
+</body>
+</html>
