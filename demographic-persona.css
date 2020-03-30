@@ -1,0 +1,8 @@
+img.thumbnail
+{
+	max-width: 180px;
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-right: 16px;
+}
