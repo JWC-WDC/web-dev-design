@@ -32,5 +32,5 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 L.marker([39.09818,-77.15906]).addTo(mymap)
 
 //then, if the marker is clicked, attach (or, "bind") your HTML content to open as a pop-up:
-.bindPopup('<img class="map-thumbnail" src="https://launchandsell.com/wp-content/uploads/2018/03/ls_blog_free-affordable-feminine-stock-photography_hautestock-2.jpg" /><h1>Hello world</h1><p>I am <a href="https://github.com/JWC-WDC/web-dev-design" target="_blank">a popup</a>.</p>').openPopup();
+.bindPopup('<img class="map-thumbnail" src="https://launchandsell.com/wp-content/uploads/2018/03/ls_blog_free-affordable-feminine-stock-photography_hautestock-2.jpg" /><h1>Make A Difference Today</h1><p>A brief message with a <a href="https://github.com/JWC-WDC/web-dev-design" target="_blank">Call To Action</a>.</p>').openPopup();
 </script>
