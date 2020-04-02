@@ -1,3 +1,5 @@
+<!-- make sure to add this below the Bootstrap JS code in your HTML file -->
+
 <script>
   $(document).ready(function(){
     $('[data-toggle="popover"]').popover({
