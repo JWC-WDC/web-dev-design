@@ -1,0 +1,82 @@
+/*
+
+CSS media queries are part of the CSS cascade, 
+and therefore go at the bottom of your CSS page,
+below the rest of your CSS.
+
+remember the syntax:
+
+first, add your media query parameters, EG:
+
+@media (min-width: 414px)
+
+follow that with open and closing curly braces
+
+{
+
+}
+
+between those add your CSS rules, as usual. 
+
+These following lines change the width of a particular 
+image *only* when then screen's minimum width is 640px:
+
+@media (min-width: 414px)
+{
+  img.main-image
+  {   
+    width: 154px;
+    height: 456px;
+  }
+}
+
+*/
+
+
+
+@media (min-width: 414px)
+{
+  iframe#mapid
+  {   
+    width: 154px;
+    height: 456px;
+  }
+}
+
+
+@media (min-width: 640px)
+{
+  iframe#mapid
+  {   
+    width: 224px;
+    height: 336px;
+  }
+}
+
+
+@media (min-width: 768px)
+{
+  iframe#mapid
+  {   
+    width: 314px;
+  }
+}
+
+
+
+@media (min-width: 992px)
+{
+  iframe#mapid
+  {   
+    width: 430px;
+  }
+}
+
+
+@media (min-width: 1200px)
+{
+  iframe#mapid
+  {   
+    width: 520px;
+  }
+}
