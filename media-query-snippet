@@ -27,3 +27,97 @@ The standard is to let your eyes tell you when something is broken; that said, t
 1920
 
 I use Google Chrome Devtools with the Device Toolbar toggled on, and adjust it at the above sizes to see if my design needs tweaking at any of those points.
+
+------------------------
+
+Media Query Syntax:
+
+first, add your media query parameters, EG:
+
+@media (min-width: 414px)
+
+follow that with open and closing curly braces
+
+{
+
+}
+
+between those add your CSS rules, as usual. 
+
+For example, these following lines change the width 
+of a particular image *only* when the screen's 
+minimum width is 640px:
+
+@media (min-width: 640px)
+{
+  img.main-image
+  {   
+    width: 154px;
+    height: 456px;
+  }
+}
+
+Some samples follow.
+
+*/
+
+
+/*
+Assume you have the following in your custom.css, as before:
+*/
+
+iframe#mapid
+{   
+  width: 140px;
+  height: 400px;
+}
+
+/*
+Then in your media queries you can over-write it when certain conditions are met:
+*/
+
+@media (min-width: 414px)
+{
+  iframe#mapid
+  {   
+    width: 154px;
+    height: 456px;
+  }
+}
+
+
+@media (min-width: 640px)
+{
+  iframe#mapid
+  {   
+    width: 224px;
+    height: 336px;
+  }
+}
+
+
+@media (min-width: 768px)
+{
+  iframe#mapid
+  {   
+    width: 314px;
+  }
+}
+
+
+@media (min-width: 992px)
+{
+  iframe#mapid
+  {   
+    width: 430px;
+  }
+}
+
+
+@media (min-width: 1200px)
+{
+  iframe#mapid
+  {   
+    width: 520px;
+  }
+}
