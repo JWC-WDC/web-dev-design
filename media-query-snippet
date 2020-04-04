@@ -8,7 +8,7 @@ Maybe a headline looked great on a thin screen, but on a wide screen it looks aw
 
 Solving these problems is where media queries come in.
 
-When you take a look at a page in Chrome dev tools you can watch how the map's width changes when the screen width hits certain points.
+When you take a look at a page in Chrome dev tools you can watch how the CSS style(s) of an HTML element change when the screen width hits certain points.
 
 The standard is to let your eyes tell you when something is broken; that said, the widths at which I typically design my layouts with media queries in mind are as follows (note: this is not an exhaustive list.)
 
