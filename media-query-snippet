@@ -1,16 +1,24 @@
-CSS media queries are part of the CSS cascade, and therefore go at the bottom of your CSS page, below the rest of your CSS.
+/*
 
-Media queries are used when you want to make specific CSS changes when the screen width hits certain points.
+CSS media queries are part of the CSS cascade, 
+and therefore go at the bottom of your CSS page,
+below the rest of your CSS.
 
-These are called "breakpoints" - think of the phrase in terms of when your design breaks, IE, when it looks bad. 
+Media queries are used when you want to make specific
+CSS changes when the screen width hits certain points.
 
-Maybe a headline looked great on a thin screen, but on a wide screen it looks awful. Or maybe an image looks great on a wide screen, but is huge on a tiny screen. 
+These are called "breakpoints" - think of the phrase
+in terms of when your design breaks, IE, when it looks bad. 
+
+Maybe a headline looked great on a thin screen, but 
+on a wide screen it looks awful. Or maybe an image looks great
+on a wide screen, but is huge on a tiny screen. 
 
 Solving these problems is where media queries come in.
 
-When you take a look at a page in Chrome dev tools you can watch how the CSS style(s) of an HTML element change when the screen width hits certain points.
-
-The standard is to let your eyes tell you when something is broken; that said, the widths at which I typically design my layouts with media queries in mind are as follows (note: this is not an exhaustive list.)
+The standard is to let your eyes tell you when something is broken;
+that said, the widths at which I typically design my layouts
+with media queries in mind are as follows (note: this is not an exhaustive list.)
 
 375
 414
@@ -26,9 +34,11 @@ The standard is to let your eyes tell you when something is broken; that said, t
 1600
 1920
 
-I use Google Chrome Devtools with the Device Toolbar toggled on, and adjust it at the above sizes to see if my design needs tweaking at any of those points.
+In other words, I use the Google Chrome Devtool with the 
+Device Toolbar toggled on, and adjust it at the above sizes
+to see if my design needs tweaking at any of those points.
 
-------------------------
+----------------
 
 Media Query Syntax:
 
