@@ -1,0 +1,20 @@
+Create a website as before using our classwork. Keep it basic while you're learning this technique - I suggest you start with bootstrap-starter-file-html and bootstrap-starter-file-css
+
+NOTES
+There is a video you can see here describing the media query process. Throughout much of the video I added a light gray border to every DIV, so you can get a sense of your DIV boundaries when setting widths. I this example, we are setting the default width and height of an iframe, and then changing those values based on the changing width of the screen (aka, viewport.)
+
+The video is here: VIMEO
+
+GENERAL STEPS
+-paste the iframe embed code wherever you want it in your HTML
+
+-strip the hard-coded (aka, inline) CSS from the iframe embed code
+
+-give the iframe an ID name, in this example, "main_audio"
+
+-create a style for that iframe in your custom.css, setting its default width and height
+
+-create CSS media queries to adjust the height & width of this iframe at specific breakpoints
+
+Here is a default iframe embed for testing:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zZbcIVTuHKQ?start=60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
