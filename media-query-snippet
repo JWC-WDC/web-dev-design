@@ -4,7 +4,43 @@ CSS media queries are part of the CSS cascade,
 and therefore go at the bottom of your CSS page,
 below the rest of your CSS.
 
-remember the syntax:
+Media queries are used when you want to make specific
+CSS changes when the screen width hits certain points.
+
+These are called "breakpoints" - think of the phrase
+in terms of when your design breaks, IE, when it looks bad. 
+
+Maybe a headline looked great on a thin screen, but 
+on a wide screen it looks awful. Or maybe an image looks great
+on a wide screen, but is huge on a tiny screen. 
+
+Solving these problems is where media queries come in.
+
+The standard is to let you eyes tell you when something is broken;
+that said, the widths at which I typically design my layouts
+with media queries in mind are as follows (note: this is not an exhaustive list.)
+
+375
+414
+425
+640
+768
+992
+1024
+1120
+1200
+1366
+1440
+1600
+1920
+
+In other words, I use the Google Chrome Devtool with the 
+Device Toolbar toggled on, and adjust it at the above sizes
+to see if my design needs tweaking at any of those points.
+
+----------------
+
+Media Query Syntax:
 
 first, add your media query parameters, EG:
 
@@ -18,10 +54,11 @@ follow that with open and closing curly braces
 
 between those add your CSS rules, as usual. 
 
-These following lines change the width of a particular 
-image *only* when then screen's minimum width is 640px:
+For example, these following lines change the width 
+of a particular image *only* when the screen's 
+minimum width is 640px:
 
-@media (min-width: 414px)
+@media (min-width: 640px)
 {
   img.main-image
   {   
@@ -30,9 +67,24 @@ image *only* when then screen's minimum width is 640px:
   }
 }
 
+Some samples follow.
+
 */
 
 
+/*
+Assume you have the following in your custom.css, as before:
+*/
+
+iframe#mapid
+{   
+  width: 140px;
+  height: 400px;
+}
+
+/*
+Then in your media queries you can over-write it when certain conditions are met:
+*/
 
 @media (min-width: 414px)
 {
@@ -61,7 +113,6 @@ image *only* when then screen's minimum width is 640px:
     width: 314px;
   }
 }
-
 
 
 @media (min-width: 992px)
