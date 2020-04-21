@@ -1,7 +1,13 @@
-<!-- Here's the twiiter link -->
+<!-- 1 -->
+
+<!-- paste the following twitter code in your HTML, where you want it to appear -->
+<!-- in the twitter code, change the handle "TwitterDev" to the one you want -->
+
 <a class="twitter-timeline" href="https://twitter.com/TwitterDev" data-tweet-limit="3">
 Our Latest On Social Media
 </a>
+
+<!-- 2 -->
 
 <!-- Make sure to include Twitter's JavaScript code at the bottom of your page, inside (before) the </body> element -->
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
