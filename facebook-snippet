@@ -1,0 +1,12 @@
+<!-- paste this where you want it to appear -->
+<!-- change the data-href value to the FB name you want -->
+
+ <div class="fb-page" 
+            data-tabs="timeline,events,messages"
+            data-href="https://www.facebook.com/montgomerycollege"
+            data-width="340" 
+            data-hide-cover="false"></div><!-- fb-page -->
+
+<!-- paste this at the bottom of your pagem before the closing </body> element -->
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
