@@ -26,7 +26,7 @@ border: 1px solid #ccc;
  body
  {
   
-  background-color: #f00;
+  background-color: #000;
 }
 
 
