@@ -1,0 +1,196 @@
+/* A few sample styles to copy, paste and edit as needed:
+
+padding: 16px;
+background-color: red;
+color: #369;
+font-size: 16px;
+line-height: 19px;
+weight: 700;
+margin-left: 12px;
+margin-top: 22px;
+text-transform: uppercase;
+text-align: center;
+border: 1px solid #ccc;
+
+*/
+
+/*
+  ___  ___  _____   __
+ | _ )/ _ \|   \ \ / /
+ | _ \ (_) | |) \ V / 
+ |___/\___/|___/ |_|  
+ 
+ */
+
+
+ body
+ {
+  
+  background-color: #f00;
+}
+
+
+
+
+/*
+  _  _ _ 
+ | || / |
+ | __ | |
+ |_||_|_|
+         
+ */
+
+ h1
+ {
+
+ }
+
+
+
+/*
+  _  _ ___ 
+ | || |_  )
+ | __ |/ / 
+ |_||_/___|
+           
+ */
+
+
+
+
+
+
+/*
+  _  _ ____
+ | || |__ /
+ | __ ||_ \
+ |_||_|___/
+           
+ */
+
+
+
+
+
+
+
+/*
+  ___ 
+ | _ \
+ |  _/
+ |_|  
+      
+ */
+
+
+ p
+ {
+
+ }
+
+
+
+/*
+  ___ _____   __  
+ |   \_ _\ \ / /__
+ | |) | | \ V (_-<
+ |___/___| \_//__/
+                  
+
+ */
+
+
+ div
+ {
+  border: 1px solid #ccc;
+  padding: 32px;
+  background-color: #aaa;
+}
+
+div.container
+{
+  border: 0px solid #ccc;
+  padding: 0px;
+}
+
+
+
+
+.carousel-cell {
+  width: 66%;
+  height: 400px;
+  margin-right: 10px;
+  background: #333;
+}
+
+.carousel-cell-image {
+  display: block;
+  max-height: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.4s;
+          transition: opacity 0.4s;
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+
+
+
+/*
+  ___                        
+ |_ _|_ __  __ _ __ _ ___ ___
+  | || '  \/ _` / _` / -_|_-<
+ |___|_|_|_\__,_\__, \___/__/
+                |___/        
+*/
+
+
+img
+{
+
+}
+
+
+
+
+/*
+  _    _      _       
+ | |  (_)_ _ | |__ ___
+ | |__| | ' \| / /(_-<
+ |____|_|_||_|_\_\/__/
+                      
+ */
+
+ a
+ {
+
+ }
+
+ a:hover
+ {
+
+ }
+
+
+/*
+  _    _    _      
+ | |  (_)__| |_ ___
+ | |__| (_-<  _(_-<
+ |____|_/__/\__/__/
+
+ */
+
+ ul
+ {
+
+ }
+
+ ul li
+ {
+
+ }
