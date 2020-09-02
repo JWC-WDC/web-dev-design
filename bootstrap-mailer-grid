@@ -6,24 +6,24 @@
 
 <head>
 
-<meta charset="utf-8">
+  <meta charset="utf-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta name="description" content="Your description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sic enim censent, oportunitatis esse beate vivere. Quid autem habent admirationis, cum prope accesseris.">
+  <meta name="description" content="Your description here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sic enim censent, oportunitatis esse beate vivere. Quid autem habent admirationis, cum prope accesseris.">
 
-<meta name="author" content="YOUR NAME HERE!">
+  <meta name="author" content="YOUR NAME HERE!">
 
-<link rel="icon" href="https:johncarmody.com/school/mc/images/mailer/45.png">
+  <link rel="icon" href="https://johncarmody.com/school/mc/images/mailer/45.png">
 
-<title>Mailer Template</title>
+  <title>Mailer Template</title>
 
-<!-- load Bootstrap's CSS, as well as your own -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- load Bootstrap's CSS, as well as your own -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,900|Roboto+Slab:200,400,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,900|Roboto+Slab:200,400,800&display=swap" rel="stylesheet">
 
-<link href="css/custom.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -154,7 +154,7 @@
 <div class="row mailer">
 
   <div class="col-5">
-   <img src="https:johncarmody.com/school/mc/images/mailer/651-600x600.jpg" class="section-thumb">
+   <img src="https://johncarmody.com/school/mc/images/mailer/651-600x600.jpg" class="section-thumb">
  </div><!-- /5 -->
 
  <div class="col-7">
@@ -167,27 +167,27 @@
     </div><!-- /4 -->
 
     <div class="col-lg-4 no-pad">
-      <img src="https:johncarmody.com/school/mc/images/mailer/527-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <img src="https://johncarmody.com/school/mc/images/mailer/527-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
       <p><a href="contact.html">contact</a></p>
     </div><!-- /4 -->
 
     <div class="col-lg-4 no-pad">
-      <img src="https:johncarmody.com/school/mc/images/mailer/223-600x600.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <img src="https://johncarmody.com/school/mc/images/mailer/223-600x600.jpg" class="section-thumb" alt="brief photo descr goes here">
       <p>some text</p>
     </div><!-- /4 -->
 
     <div class="col-lg-4 no-pad">
-      <img src="https:johncarmody.com/school/mc/images/mailer/537-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <img src="https://johncarmody.com/school/mc/images/mailer/537-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
       <p>some text</p>
     </div><!-- /4 -->
 
     <div class="col-lg-4 no-pad">
-      <img src="https:johncarmody.com/school/mc/images/mailer/661-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <img src="https://johncarmody.com/school/mc/images/mailer/661-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
       <p>some text</p>
     </div><!-- /4 -->
 
     <div class="col-lg-4 no-pad">
-      <img src="https:johncarmody.com/school/mc/images/mailer/827-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
+      <img src="https://johncarmody.com/school/mc/images/mailer/827-200x200.jpg" class="section-thumb" alt="brief photo descr goes here">
       <p>some text</p>
     </div><!-- /4 -->
 
@@ -254,7 +254,7 @@
 
 
 <div class="col-lg-4">
-  <img src="https:johncarmody.com/school/mc/images/mailer/325-640x480.jpg" class="main-image" alt="brief photo descr goes here">
+  <img src="https://johncarmody.com/school/mc/images/mailer/325-640x480.jpg" class="main-image" alt="brief photo descr goes here">
   <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit</strong>, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua.</p>
   <p>Sonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, dolore magna aliqua. Ut enim ad minim veniam.</p>
