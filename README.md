@@ -8,6 +8,8 @@ Remember: your top-level project folder should have sub-folders for images, CSS 
 /project-name/contact.html<br/><br/>
 /project-name/css/<br/>
 /project-name/css/custom.css<br/><br/>
+/project-name/js/<br/><br/>
+/project-name/js/custom.js<br/><br/>
 /project-name/images/<br/>
 /project-name/images/logo.png
 
