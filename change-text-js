@@ -1,0 +1,138 @@
+// Make sure you save this in the /js/folder for your project. Name it custom.js
+
+function change_stuff() {
+
+// REMOVE CONTENTS OF 2 HTML DIV ELEMENTS FROM THE PAGE
+
+var element = document.getElementById('change-me');
+element.parentNode.removeChild(element); 
+
+var element = document.getElementById('secondary_container');
+element.parentNode.removeChild(element);
+
+////////////////////////////////////////////////
+
+// CREATE VARIABLES
+
+// Create a var which contains the ID of the DIV to hold the reload button
+var div2 = document.getElementById('reload-me-container');
+
+// Add HTML to div#reload-me-container: in this case, add a button with text
+div2.innerHTML = '<button id="reload-me" class="">Reload The Page</button>';
+
+// Create a var which contains the ID of the DIV holding the main content.
+var div = document.getElementById('main_headline');
+
+// Create a var which contains the name of the 1st img ("image") element in HTML on the page.
+// Note: even though we want the first matching element, our code uses a ZERO. Why?
+// Computers start counting on zero.
+
+var img = div.getElementsByTagName('img')[0]; //alert(img);
+
+// Create a var with the name of the imaging replacing the initial logo image
+var img_text = '<img src="https://www.montgomerycollege.edu/_images/global/raptor-404image-600-fade.jpg"/>';
+
+// Create a var holding a string of text for the replacement main headline (h1)
+var main_headline = 'Pseudocode Can Order Your Life as Well as Your Code.';
+
+// Create a var holding a string of text for the replacement secondary headline (h2)
+var sub_headline = 'Project Management derives from this skill - every industry needs people who can analyze, prioritize and execute projects step-by-step, viewed both from close-up and far away.';
+
+// Create a var holding a string of text for the replacement main paragraph content (p)
+var main_text = 'Not just coder jobs - everyone needs project managers.';
+
+
+
+////////////////////////////////////////////////
+
+// ADD OUR VARIBLES TO THE HTML
+
+// HERE WE COMBINE OUR HTML INTO 1 STRING: h1, img, h2, p
+// REMEMBER: We created the var "div" a few steps above
+// Note how we can combine HTML and JavaScript using the + sign, combined with single quotes.
+// More on that later.
+div.innerHTML = '<h1>'+img_text+main_headline+'</h1><h2>'+sub_headline+'</h2>'+'<p>'+main_text+'</p>';
+// To be clear, the above line of code says, in pseudocode, "add the HTML and JS contained in this string as the *new* contents of "div#main_headline" in the index.html page
+
+
+
+////////////////////////////////////////////////
+
+// LISTEN for a click specifically on the "reload-me" button
+// If there is a click, run the following operation, which reloads the page
+document.getElementById('reload-me').addEventListener('click', () => 
+
+// START addEventListener's action:
+{   
+
+// reload the page:
+location.reload(); 
+
+// needed when using "onclick" in the HTML:
+return false; 
+
+// END addEventListener's action:
+}
+
+// END addEventListener (note the OPEN parenthesis is BEFORE the word "click" in the addEventListener above - this is where the opening parenthesis starts)
+);   
+
+
+
+} // END our top-level function "change_stuff()", created in the 1st line of this code snippet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function insertAfter(el, referenceNode) {
+//     referenceNode.parentNode.insertBefore(el, referenceNode.previousSibling);
+// }// end function insertAfter()
+
+// var newEl = document.createElement('caption');
+// newEl.innerHTML = 'Photo: MC Raptor';
+
+// var ref = document.querySelector('div#main_headline');
+
+// insertAfter(newEl, ref);
+
+
+
+
+
+
+
+
+
+// const btn = document.querySelector('#btn');
+// // handle click button
+// btn.onclick = function () {
+//     const rbs = document.querySelectorAll('input[name="choice"]');
+//     let selectedValue;
+//     for (const rb of rbs) {
+//         if (rb.checked) {
+//             selectedValue = rb.value;
+//             break;
+//         }
+//     }
+//     alert(selectedValue);
+// };
+
+
+
+// document.getElementById('go-back').addEventListener('click', () => {
+//     history.back();
+// });    
+
+
