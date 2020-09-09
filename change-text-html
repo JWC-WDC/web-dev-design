@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="" name="">
+	<meta content="" name="">
+
+	<title>Pseudocode Demo</title>
+
+	<style type="">
+
+	/* NOTE: CSS has been added directly to this page for this tutorial, but generally is contained in a different file, eg, /css/custom.css */
+
+	h1
+	{
+		margin-top: 32px;
+		text-transform: uppercase;
+		font-size: 30px;
+		line-height: 33px;
+		color: #369;
+	}
+
+	h2	
+	{
+		font-size: 22px;
+		line-height: 24px;
+		color: #000;
+	}
+
+	p
+	{
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	div#main_container, div#secondary_container
+	{
+		margin: 0 auto;
+		max-width: 992px;
+		min-width: 375px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+
+	div#secondary_container
+	{
+		margin-top: 80px;
+	}
+
+	img
+	{
+		max-width: 200px;
+		width: 100%;
+		height: inherit;
+		float: left;
+		margin-right: 16px;
+	}
+
+	button
+	{
+		padding: 1rem;
+		border: 1px solid #ccc;
+		border-radius: 20px;
+		color: white;
+		background-image: linear-gradient(to bottom, #369, rgba(0,0,0,1));
+		text-transform: uppercase;
+	}
+
+	caption {
+		font-size: 16px;
+		width: 666px;
+		color: #ccc;
+		text-align: left;
+		margin-bottom: 16px;
+	}
+
+	span.highlight
+	{
+		color: red;
+	}
+
+	strong	
+	{
+		color: #369;
+	}
+
+	ul.pseudocode 
+	{
+		padding: 4px;
+		margin: 12px 0;
+		border: 1px solid #ccc;
+	}
+
+	div#secondary_container	ul.pseudocode 
+	{
+		border: 0px solid #ccc;
+	}
+
+	ul.pseudocode li, ul.example-button li
+	{
+		list-style: none;
+		margin-bottom: 16px;
+	}
+
+
+</style>
+
+</head>
+
+<body> 
+	<div id="main_container">
+
+		<div id="main_headline"><h1>Welcome To Pseudocode</h1>
+			<img src="https://www.montgomerycollege.edu/_images/global/mc_horiz_rgb.svg">
+			
+
+			<h2>Remember: Pseudocode is *not* a language. It's a methodology - a way to express the details of what you want a process to do.</h2>
+
+			<h2>It has no syntax like any of the programming language and thus can’t be compiled or interpreted by the computer.</h2>
+
+			<h2>The advantage of pseudocode over plain English is that it has a precise meaning.</h2>
+
+			<h2>We want to use pseudocode to learn to think like a computer thinks.</h2>
+
+			<p>NOTE: The pseudocode process can be for almost anything, from writing code to creating a recipe to creating detailed to-do lists to drafting instructions on how to get from here to there, and more.</p>
+
+			<p>In this example, I'll use it for JavaScript: my goal is to swap-out the headline on this page ("Welcome To Pseudocode") for another headline. I want also to change the subheadline.</p>
+
+			<p>And I want to swap the logo image with another.</p>
+
+			<p>I'll delete this text you're reading too; and add new text in its place.</p>
+
+			<p>All with the click of a button.</p>
+
+			<p>What's more, when the button's clicked, I want that button to disappear and a new button to appear which when clicked will reload the page.</p>
+
+			<p>In pseudocode, that series of steps might look like:</p>
+
+			<ul class="pseudocode">
+				<li><strong>START</strong></li>
+
+				<li><strong>IF</strong></li>
+
+				<li>-<strong>ACT</strong> if the button with the ID of "change-me" is clicked</li>
+
+				<li>--<strong>DELETE</strong> div with ID "main_headline"</li>
+
+				<li>--<strong>POPULATE</strong> "div#main_headline" with new HTML content</li>
+
+				<li>--<strong>POPULATE</strong> "div#reload-me-container" with new HTML content</li>
+
+				<li>--<strong>DELETE</strong> the "change headline" button</li>
+
+				<li>--<strong>ADD</strong> a reload button into "div#reload-me-container"</li>
+
+				<li>--<strong>ADD</strong> a listener to that reload button<br>
+				---if the reload button is clicked, reload the page in the browser</li>
+
+				<li><strong>END IF</strong></li>
+
+				<li><strong>END</strong></li>
+			</ul>
+
+		</div><!-- main_headline -->
+
+		<div id="reload-me-container">
+			<!-- empty when 1st loaded-->
+		</div><!-- reload-me-container -->
+
+		<ul class="example-button">
+			<li>
+				<!-- when this button is clicked, the JS function "change_stuff()" is run. This function is in your "custom.js" file -->
+				<button id="change-me" type="button" class="" onclick="change_stuff();">
+					Change the Headline and Image
+				</button>
+			</li>
+		</ul>
+
+	</div><!-- main_container -->
+
+
+	<div id="secondary_container">
+
+		<h2>Let's explore our pseudocode from above:</h2>
+		<p>KEY: <strong>ACTION TO BE TAKEN</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> brief explanation of it</p>
+		<hr>
+		<ul class="pseudocode">
+			<li><strong>START</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> begins our process</li>
+
+			<li><strong>IF</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> begins an IF statement</li>
+
+			<li>-<strong>ACT</strong> if the button with the ID of "change-me" is clicked</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> add the event listener (addEventListener) as well take the steps listed next:</li>
+
+			<li>--<strong>DELETE</strong> div with ID "main_headline"</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> removing the div from the DOM deletes all of its contents as well</li>
+
+			<li>--<strong>POPULATE</strong> "div#main_headline" with new HTML content&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> put a new string of HTML in this div</li>
+
+			<li>--<strong>POPULATE</strong> "div#reload-me-container" with new HTML content</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> add a button to reload the page</li>
+
+			<li>--<strong>DELETE</strong> the "change headline" button<</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> hide the button since it's been clicked</li>
+
+			<li>--<strong>ADD</strong> a reload button into "div#reload-me-container"</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> now we need a reload button added</li>
+
+			<li>--<strong>ADD</strong> a listener to that reload button&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> that is, make the button's click readable by the page<br>
+				---if the reload button is clicked, reload the page in the browser&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> if the button's clicked, run a script to reload the page</li>
+
+				<li><strong>END IF</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> ends the IF statement</li>
+
+				<li><strong>END</strong>&nbsp;&nbsp;<span class="highlight">&gt;&gt;</span> ends the process</li>
+			</ul>
+
+			<hr>
+
+			<h2>Some Notes</h2>
+
+			<p>Again, pseudocode is *not* real code.</p>
+
+			<p>Note the hyphens (- and --) in the pseudocode. They represent those steps which are specific to the line proceeding it.</p>
+
+			<p>In this example, "ACT" is a top-level goal containing 6 steps to be accomplished (DELETE, POPULATE, POPULATE, DELETE, ADD, ADD)</p>
+
+			<p>Now that we have a pseudocode version of what we need, we can build it out in real code.</p>
+
+			<h2>Starting & Stopping</h2>
+
+			<p>Like in HTML, CSS, JS and other languages, note how pseudocode has beginnings and endings, or open/close.</p>
+
+			<p>That is, at the top, you start reading your pseudocode at the top with START and add your instructions until it says END. That is, you have a beginning and an ending to what you want to accomplish.</p>
+
+			<p>See how the IF and END IF also are open/close pairs? Your instructions for what happens if a button is clicked, for example, go between these.</p>
+
+		</div><!-- secondary_container -->
+
+		<!-- load our custom JS -->
+		<script src="js/custom.js"></script>
+
+	</body>
+	</html>
