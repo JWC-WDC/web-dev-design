@@ -56,7 +56,11 @@
 		width: 100%;
 		height: inherit;
 		float: left;
+		margin-bottom: 16px;
 		margin-right: 16px;
+		display: block;
+		border: 1px solid #ccc;
+		padding: 16px;
 	}
 
 	button
@@ -115,15 +119,15 @@
 
 		<div id="main_headline"><h1>Welcome To Pseudocode</h1>
 			<img src="https://www.montgomerycollege.edu/_images/global/mc_horiz_rgb.svg">
-			
+
 
 			<h2>Remember: Pseudocode is *not* a language. It's a methodology - a way to express the details of what you want a process to do.</h2>
 
-			<h2>It has no syntax like any of the programming language and thus can’t be compiled or interpreted by the computer.</h2>
+			<h2>It has no syntax like any of the programming languages and thus can’t be compiled or interpreted by the computer.</h2>
 
 			<h2>The advantage of pseudocode over plain English is that it has a precise meaning.</h2>
 
-			<h2>We want to use pseudocode to learn to think like a computer thinks.</h2>
+			<h2>We want to use pseudocode to learn to think like a computer thinks so we can write efficient code.</h2>
 
 			<p>NOTE: The pseudocode process can be for almost anything, from writing code to creating a recipe to creating detailed to-do lists to drafting instructions on how to get from here to there, and more.</p>
 
@@ -142,9 +146,9 @@
 			<ul class="pseudocode">
 				<li><strong>START</strong></li>
 
-				<li><strong>IF</strong></li>
+				<li><strong>IF</strong> if the button with the ID of "change-me" is clicked</li> 
 
-				<li>-<strong>ACT</strong> if the button with the ID of "change-me" is clicked</li>
+				<li>-<strong>ACT</strong> Perform the following steps:</li>
 
 				<li>--<strong>DELETE</strong> div with ID "main_headline"</li>
 
@@ -190,9 +194,9 @@
 		<ul class="pseudocode">
 			<li><strong>START</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> begins our process</li>
 
-			<li><strong>IF</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> begins an IF statement</li>
+			<li><strong>IF</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> begins an IF statement, that says basically, if THIS, then do THAT</li>
 
-			<li>-<strong>ACT</strong> if the button with the ID of "change-me" is clicked</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> add the event listener (addEventListener) as well take the steps listed next:</li>
+			<li>-<strong>ACT</strong> assuming the button with the ID of "change-me" is clicked</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> execute the steps listed next:</li>
 
 			<li>--<strong>DELETE</strong> div with ID "main_headline"</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> removing the div from the DOM deletes all of its contents as well</li>
 
@@ -209,7 +213,7 @@
 
 				<li><strong>END IF</strong>&nbsp;&nbsp; <span class="highlight">&gt;&gt;</span> ends the IF statement</li>
 
-				<li><strong>END</strong>&nbsp;&nbsp;<span class="highlight">&gt;&gt;</span> ends the process</li>
+				<li><strong>END</strong>&nbsp;&nbsp;<span class="highlight">&gt;&gt;</span> ends our process</li>
 			</ul>
 
 			<hr>
