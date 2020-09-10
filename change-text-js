@@ -1,18 +1,25 @@
-// Make sure you save this in the /js/folder for your project. Name it custom.js
+// Make sure you save this in the /js/folder for your project. Name it custom.js. See the github read.me file for assistance.
 
 function change_stuff() {
 
-// REMOVE CONTENTS OF 2 HTML DIV ELEMENTS FROM THE PAGE
+// 1. REMOVE THE CONTENTS OF TWO HTML DIV ELEMENTS FROM THE PAGE
 
+// Go through the DOM, look for something with an ID of "change-me"
+// delete its contents (its "children")
+// Create a var ...
 var element = document.getElementById('change-me');
+
+//xxx
 element.parentNode.removeChild(element); 
 
+// Go through the DOM, look for something with an ID of "secondary_container"
+// delete its contents (its "children")
 var element = document.getElementById('secondary_container');
 element.parentNode.removeChild(element);
 
 ////////////////////////////////////////////////
 
-// CREATE VARIABLES
+// 2. CREATE VARIABLES
 
 // Create a var which contains the ID of the DIV to hold the reload button
 var div2 = document.getElementById('reload-me-container');
@@ -39,30 +46,31 @@ var main_headline = 'Pseudocode Can Order Your Life as Well as Your Code.';
 var sub_headline = 'Project Management derives from this skill - every industry needs people who can analyze, prioritize and execute projects step-by-step, viewed both from close-up and far away.';
 
 // Create a var holding a string of text for the replacement main paragraph content (p)
-var main_text = 'Not just coder jobs - everyone needs project managers.';
+var main_text = 'Not just coder jobs - all employers everywhere need people with project management skills.';
 
 
 
 ////////////////////////////////////////////////
 
-// ADD OUR VARIBLES TO THE HTML
+// 3. ADD OUR VARIBLES TO THE HTML
 
 // HERE WE COMBINE OUR HTML INTO 1 STRING: h1, img, h2, p
 // REMEMBER: We created the var "div" a few steps above
 // Note how we can combine HTML and JavaScript using the + sign, combined with single quotes.
 // More on that later.
 div.innerHTML = '<h1>'+img_text+main_headline+'</h1><h2>'+sub_headline+'</h2>'+'<p>'+main_text+'</p>';
-// To be clear, the above line of code says, in pseudocode, "add the HTML and JS contained in this string as the *new* contents of "div#main_headline" in the index.html page
+// The above line of code says, in pseudocode, "create a new temporary string made up of HTML and JS, and add that string as the *new* contents of "div#main_headline" in the index.html page
 
 
 
 ////////////////////////////////////////////////
 
-// LISTEN for a click specifically on the "reload-me" button
+// 4. LISTEN for a click specifically on the "reload-me" button
+
 // If there is a click, run the following operation, which reloads the page
 document.getElementById('reload-me').addEventListener('click', () => 
 
-// START addEventListener's action:
+// START addEventListener's action (note the open bracket):
 {   
 
 // reload the page:
@@ -71,68 +79,13 @@ location.reload();
 // needed when using "onclick" in the HTML:
 return false; 
 
-// END addEventListener's action:
+// END addEventListener's action (note the closing bracket):
 }
 
-// END addEventListener (note the OPEN parenthesis is BEFORE the word "click" in the addEventListener above - this is where the opening parenthesis starts)
+// STOP addEventListener (note: the OPEN parenthesis is BEFORE the word "click" in the addEventListener above)
 );   
 
-
-
-} // END our top-level function "change_stuff()", created in the 1st line of this code snippet.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function insertAfter(el, referenceNode) {
-//     referenceNode.parentNode.insertBefore(el, referenceNode.previousSibling);
-// }// end function insertAfter()
-
-// var newEl = document.createElement('caption');
-// newEl.innerHTML = 'Photo: MC Raptor';
-
-// var ref = document.querySelector('div#main_headline');
-
-// insertAfter(newEl, ref);
-
-
-
-
-
-
-
-
-
-// const btn = document.querySelector('#btn');
-// // handle click button
-// btn.onclick = function () {
-//     const rbs = document.querySelectorAll('input[name="choice"]');
-//     let selectedValue;
-//     for (const rb of rbs) {
-//         if (rb.checked) {
-//             selectedValue = rb.value;
-//             break;
-//         }
-//     }
-//     alert(selectedValue);
-// };
-
-
-
-// document.getElementById('go-back').addEventListener('click', () => {
-//     history.back();
-// });    
-
+// END our top-level function "change_stuff()", created at the top of this code snippet.
+// NOTE the closing bracket
+} 
 
