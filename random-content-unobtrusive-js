@@ -1,0 +1,55 @@
+function randomQuote() {
+
+// choose a random number from 1 to 3:
+
+var myNumber = Math.floor(Math.random() * 4);
+
+//create vars based on random number:
+
+switch (myNumber) {				
+	case 1:
+	var randomPhrase = 'Loose Lips Sink Ships!';
+	var authorName = 'WWII Slogan';
+	var myImage = 'https://johncarmody.com/school/mc/files/mrs-meyers/typography/victorian/4a307421f5da63d17110d11db6fa0623.jpg';
+	break;
+
+	case 2:
+	var randomPhrase = 'I believe the best definition of man is: The Ungrateful Biped.';
+	var authorName = 'Fyodor Dostoevsky';
+	var myImage = 'https://johncarmody.com/school/mc/files/mrs-meyers/typography/victorian/970f8352b34a10b280a8aa5aea827b17.jpg';
+	break;
+
+	case 3:
+	var randomPhrase = 'Nature Abhors A Vacuum.';
+	var authorName = 'Aristotle';
+	var myImage = 'https://johncarmody.com/school/mc/files/mrs-meyers/typography/victorian/e549f2bc527fce6f977ed0432c0bd760.jpg';
+	break;
+
+	default:
+	var randomPhrase = 'The Future Is Now';
+	var authorName = 'George Allen';
+	var myImage = 'https://johncarmody.com/school/mc/files/mrs-meyers/typography/dada/00dd3063f6dc15566235d8405910771d.jpg';
+}
+
+
+// show the random number chosen in the console (must have DevTools open):
+console.log('The number selected @ random is: '+myNumber);
+
+
+
+// take vars from above and populate HTML content with matching ID:
+var mainHeadline = document.getElementById('main_headline');
+mainHeadline.innerHTML = '"'+randomPhrase+'"';	
+
+var theAuthor = document.getElementById('subHeadline');
+theAuthor.innerHTML = authorName;	
+
+var theImage = document.getElementById('image-container');
+theImage.innerHTML = '<img src="'+myImage+'" class="main-image"/>';//alert(img_text);
+}
+
+
+
+// call this function (run it):
+
+randomQuote();
