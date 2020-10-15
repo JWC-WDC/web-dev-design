@@ -102,7 +102,7 @@ function count_my_items(myValue) // only writes the value to the console
 
 // then I assemble those parts using concatenation
 
-// NOTE: this example assumes the images are named thusly: IMG_1.jpg, IMG_2.jpg, etc
+// NOTE: this example assumes the images are stored on my server, and are named thusly: IMG_1.jpg, IMG_2.jpg, etc
 
 function show_my_images(myValue)
 {
@@ -112,7 +112,7 @@ for (var i = 0; i < myValue; i++) {
 
 	var myImageStart = '<li>';
 	var myImageSourceStart = '<img src="';
-	var myImagePath = 'images/IMG_'+i+'.jpg"';
+	var myImagePath = 'https://johncarmody.com/school/mc/files/intro-to-loops-and-arrays/images/IMG_'+i+'.jpg"';
 	var myImageSourceEnd = ' class="myImageClass" />';
 	var myImageEnd = '</li>';
 
