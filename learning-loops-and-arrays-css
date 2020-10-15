@@ -1,0 +1,19 @@
+img.myImageClass
+{
+	padding: 8px;
+	border: 1px solid #ccc;
+	width: 100%;
+	height: inherit;
+	max-width: 200px;
+}
+
+ul.image-list
+{
+	list-style: none;
+}
+
+ul.image-list li
+{
+	float: left;
+	margin: 16px;
+}
