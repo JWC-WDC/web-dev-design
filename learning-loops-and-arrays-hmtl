@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="" name="">
+	<meta content="" name="">
+
+	<title>JavaScript Demo: Intro To Loops & Arrays</title>
+
+	<link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body> 
+	<div id="main_container">
+
+		<div id="image-holder"></div><!-- image-holder -->
+
+	</div><!-- main_container -->
+
+
+	<!-- load our custom JS -->
+	<script src="js/custom.js"></script>
+
+</body>
+</html>
