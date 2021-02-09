@@ -1,0 +1,105 @@
+  <div id="" class="container-fluid">   
+
+    <div class="row">
+      <div class="col-12">
+        <h1 class="main-headline">Here's The Main Headline</h1>
+      </div><!-- 12 -->
+
+      <div class="col-md-8">
+
+        <ul class="my-main-list">
+         <li>
+          <img src="http://placehold.it/80x80" class="section-thumb">
+          <h2>Here's A Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas non felis id fermentum.</p>
+          <a href="#">click for more</a>
+        </li>
+
+        <li>
+          <img src="http://placehold.it/80x80" class="section-thumb">
+          <h2>Here's A Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas non felis id fermentum.</p>
+          <a href="#">click for more</a>
+        </li>
+
+        <li>
+          <img src="http://placehold.it/80x80" class="section-thumb">
+          <h2>Here's A Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas non felis id fermentum.</p>
+          <a href="#">click for more</a>
+        </li>
+
+        <li>
+          <img src="http://placehold.it/80x80" class="section-thumb">
+          <h2>Here's A Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas non felis id fermentum.</p>
+          <a href="#">click for more</a>
+        </li>
+
+        <li>
+          <img src="http://placehold.it/80x80" class="section-thumb">
+          <h2>Here's A Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas non felis id fermentum.</p>
+          <a href="#">click for more</a>
+        </li>
+
+        <li>
+          <img src="http://placehold.it/80x80" class="section-thumb">
+          <h2>Here's A Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas non felis id fermentum.</p>
+          <a href="#">click for more</a>
+        </li>
+
+        <li>
+          <img src="http://placehold.it/80x80" class="section-thumb">
+          <h2>Here's A Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas non felis id fermentum.</p>
+          <a href="#">click for more</a>
+        </li>
+
+        <li>
+          <img src="http://placehold.it/80x80" class="section-thumb">
+          <h2>Here's A Headline</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer egestas non felis id fermentum.</p>
+          <a href="#">click for more</a>
+        </li>
+      </ul>
+
+    </div><!-- 8 -->
+
+
+    <div class="col-md-4">
+      <ul class="my-secondary-list">
+       <li>
+        <img src="http://placehold.it/80x80" class="section-thumb">
+        <h2>Here's A Headline</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#">click for more</a>
+      </li>
+
+      <li>
+        <img src="http://placehold.it/80x80" class="section-thumb">
+        <h2>Here's A Headline</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#">click for more</a>
+      </li>
+
+      <li>
+        <img src="http://placehold.it/80x80" class="section-thumb">
+        <h2>Here's A Headline</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#">click for more</a>
+      </li>
+
+      <li>
+        <img src="http://placehold.it/80x80" class="section-thumb">
+        <h2>Here's A Headline</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <a href="#">click for more</a>
+      </li>
+    </ul>
+  </div><!-- 4 -->
+</div><!-- /row -->
+
+</div> <!-- /container -->
+
